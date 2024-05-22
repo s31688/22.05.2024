@@ -7,7 +7,6 @@ public abstract class Vehicle {
         this.make = make;
         this.model = model;
         this.year = year;
-        Main.vehicles.add(this);
     }
 
     public String getMake() {
