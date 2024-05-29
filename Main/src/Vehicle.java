@@ -1,7 +1,7 @@
 public abstract class Vehicle {
-    private final String make;
-    private final String model;
-    private final int year;
+    private String make;
+    private String model;
+    private int year;
 
     public Vehicle(String make, String model, int year) {
         this.make = make;

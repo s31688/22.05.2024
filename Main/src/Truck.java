@@ -1,7 +1,7 @@
 public class Truck extends Vehicle {
-    private final double milesDriven;
-    private final double fuelConsumed;
-    private final double cargoWeight;
+    private double milesDriven;
+    private double fuelConsumed;
+    private double cargoWeight;
 
     public Truck(String make, String model, int year, double milesDriven, double fuelConsumed, double cargoWeight) {
         super(make, model, year);
